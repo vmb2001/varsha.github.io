@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            .container
+            {   
+                border:2px solid green ;
+                display:flex;
+        
+            }
+
+            .container>div
+            {
+            
+                flex:1;
+                color: rgb(12, 43, 62);
+                height:100%;
+                padding-bottom: 200px;
+                padding: 20px;
+
+            }
+
+            .container>div:first-child
+            {
+                flex:.5;
+                background-color: rgb(12, 43, 62);
+                color:white;
+            }
+
+            .container>div:nth-of-type(2)
+            {
+                background-image: url('images\aurora.jpg');
+            }
+
+            h3
+            {
+                color:rgb(74, 19, 130);
+                background-color:rgb(12, 180, 180);
+                margin:20px;
+                text-align: left;
+            }
+
+            td,th
+            {
+                border:2px solid;
+                padding:5px;
+                border-style:inset;
+
+            }
+            th{
+                background-color:azure;
+            }
+
+            body
+            {
+                background-image: url('images\pic.jpg');
+                margin:5px;
+                font-family: 'Lato', sans-serif;
+                padding: 5px;
+                
+
+            }
+
+            #image
+            {
+                border:solid 3px rgb(12, 180, 180);
+                margin:5px;
+                width:128px;
+                height:128px;
+                border-radius: 50%;
+                float:left
+            }
+            
+            .logo
+            {
+                width:40px;
+                float:left;
+                margin:10px;
+            }
+
+            .text{
+
+                margin:20px;
+                padding-top:40px;
+                padding-right:10px;
+                padding-bottom: 10px
+                
+            }
+
+            .info{
+                margin:10px;
+                padding:10px;
+                 
+            }
+            textarea{
+                background-color: cadetblue;
+                
+            }
+        </style>
+    </head>
+    
+   
+    <body>
+        <div class="container">
+            <div>
+                <img id="image" src="images\picvmb.jpg" alt="profile pic">
+                <h2>VARSHA MARIA BIJU</h2>
+                <h3>Software Developer</h3>
+            
+                   <a href="mailto:varshamaria2001@gmail.com"><img class="logo" src="images\email.png" ></a>
+                   <a href="https://www.linkedin.com/in/varsha2001" target="_blank"><img  class="logo" src="images\linkedin.png" ></a>
+
+                   <br>
+
+                <div class="text">
+                    <hr>
+                    <ul><h3>EDUCATION</h3>
+                        <li>Completed 10th standard from</li>
+                        <ul>
+                            <li>Chavara Darsan CMI Public School,Koonamavu</li>
+                            <li>CGPA:10</li>
+                        </ul>
+    
+                        <br>
+    
+                        <li>Completed 12th standard from</li>
+                        <ul>
+                            <li>Chavara Darsan CMI Public School,Koonamavu</li>
+                            <li>Score:94%</li>
+                        </ul>
+    
+                        <br>
+    
+                        <li>Completed B.Tech Degree in Computer Science And Engineering from</li>
+                        <ul>
+                            <li>Rajagiri School Of Engineering And Technology,Kakkanad</li>
+                            <li>CGPA:9.02</li>
+                        </ul>
+                    </ul>
+    
+                    <hr>
+
+                 </div>
+                 
+                 <iframe src="file:///C:/Users/varsh/Desktop/internal_training/resume.html" width="300" height="300"></iframe>
+             </div>
+
+            <div class="info">
+                <ul><h3> CAREER OBJECTIVE</h3>
+                    <li>
+                        Seeking a challenging position in a reputed organization where I can learn new
+                        skills, expand my knowledge, and leverage my learnings.
+                    </li> 
+                    <li>
+                        To get an opportunity where I can make the best of my potential and contribute to the organization's
+                        growth.
+                    </li>
+                </ul>
+
+                <hr>
+
+                <ul><h3>SKILLS</h3>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+
+                <hr>
+                <ul><h3> PROJECTS DONE</h3>
+                    <table>
+                        <tr>
+                            <th>Project</th>
+                            <th>Language</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr>
+                            <td>Electricity Billing System</td>
+                            <td>Java</td>
+                            <td>Java Application that helps in calculating and viewing electricity bill for each month </td>
+                        </tr>
+                        <tr>
+                            <td>Fitness App</td>
+                            <td>CSS,HTML,Javascript,Python</td>
+                            <td>Web application that reccomends food and workout routines by calculating users BMI</td>
+                        </tr>
+                        <tr>
+                            <td>Blockchain based digital forensic architecture</td>
+                            <td>CSS,HTML,Javascript,Python,Solidity</td>
+                            <td>Web application that uses blockchain to store hash value of forensic files and detect corruption</td>
+                        </tr>
+                    </table>
+            
+                <hr>
+                   <br> 
+                <ul><h3>EXPERIENCE</h3>
+                    <li>Internship in Cloud Computing from Spectrum Softech</li>
+                    <li>Currently working as Software Engineer at People10 Technosoft</li>
+                </ul>
+
+            </div>
+        </div>         
+    </body>
+</html>
